@@ -1,0 +1,544 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: sans-serif;
+}
+/****************************************************/
+/*styles pour le conteneur                          */
+/****************************************************/
+.conteneur{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-size: 0px;
+}
+
+/****************************************************/
+/*styles pour le header                             */
+/****************************************************/
+header {
+    position: relative;
+    height: 400px;
+    color: black;
+  
+    text-align: center;
+}
+
+
+/****************************************************/
+/*styles pour la zone centrale de la page           */
+/****************************************************/
+main {
+    margin: 0px;
+    padding: 0px;
+    min-height: 580px;
+
+    font-size: 0px;
+    margin-top: 50px;
+
+}
+
+
+
+/****************/
+/****Vue haut****/
+/****************/
+
+.logo {
+    display: inline-block;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    
+}
+
+#petitTitre{
+    display: inline-block;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    padding-top: 241px ;
+    padding-left: 600px;
+}
+
+.bandeau {
+    background: url('../images/bioRelai.jpg') center/cover no-repeat; 
+    height: 357px;
+    background-size: 100% 100%;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+}
+
+/***********************/
+/****Menus Principal****/
+/***********************/
+
+
+nav.menuPrincipal{
+    display: flex;
+    text-align: right;
+    background-color: black;
+    font-size: 0px;
+
+}
+
+nav.menuPrincipal ul {
+    display:  inline;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: Helvetica;
+}
+
+nav.menuPrincipal ul li {
+    display: table-cell;
+    text-align: center;
+    width: 140px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav.menuPrincipal ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav.menuPrincipal ul li a:hover {
+    color: grey;
+}
+
+nav.menuPrincipal ul li.actif {
+    background-color: ivory;
+    color: black;
+    padding: 10px;
+}
+
+/*********************/
+/****CSS Connexion****/
+/*********************/
+
+.contentConnexion{
+    background-color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.connexion {
+    display: inline-block;
+    font-size: 15px;
+    width: 400px;
+    height: 160px;
+    border: 1px solid black;
+}
+
+.titre{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 16px 0px 10px;
+}
+
+.formuConnex label{
+    width: 150px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.formuConnex input{
+    display: inline-block;
+}
+
+
+#submitConnex{
+    margin-top: 32px;
+    display: inline-block;
+    width: 180px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+.messageErreurConnexion{
+    width: 150px;
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+    color: darkred;
+}
+
+/*********************/
+/***CSS Inscription***/
+/*********************/
+
+.contentInscription{
+    background-color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.inscription {
+    display: inline-block;
+    font-size: 15px;
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.titre{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 16px 0px 10px;
+}
+
+.formuInscrip label{
+    width: 150px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.formuInscrip input{
+    display: inline-block;
+}
+
+#submitInscript{
+    margin-top: 32px;
+    display: inline-block;
+    width: 180px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+
+/*********************/
+/*****Vue Visiteur****/
+/*********************/ 
+.Accueil {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+.Accueil h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+.Accueil h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.Accueil p{
+    padding-top: 20px;
+    text-align: justify;
+}
+
+
+
+.droite {
+    display: inline-block;
+    width: 80%;
+    font-size: 15px;
+    vertical-align: top;
+    margin-top: 40px;
+}
+
+.droite .ligne input {
+    width: 200px ;
+    white-space : normal ;
+    vertical-align : top ;
+}
+
+
+.menuProducteur {
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 22px;
+}
+
+.menuProducteur ul{
+    list-style-type: none;
+    border: 1px solid grey;
+}
+
+.menuProducteur a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menuProducteur a:hover{
+    text-shadow: 3px 3px 3px black;
+}
+
+.menuProducteur .actif{
+    color: #FF9933;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px black;
+}
+
+
+#lesProducteurs {
+    display: inline-block;
+    width: 70%;
+    margin-left: 300px;
+    height: 100%;
+}
+
+.formProducteur label{
+    width: 150px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/********************/
+/******Vue Achat*****/
+/********************/
+
+.Achat {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+.Achat h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Achat p{
+    padding-top: 20px;
+    text-align: justify;
+}
+
+
+
+.droite {
+    display: inline-block;
+    width: 80%;
+    font-size: 15px;
+    vertical-align: top;
+    margin-top: 40px;
+}
+
+.droite .ligne input {
+    width: 200px ;
+    white-space : normal ;
+    vertical-align : top ;
+}
+
+
+.menuProduit {
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 22px;
+}
+
+.menuProduit ul{
+    list-style-type: none;
+    border: 1px solid grey;
+}
+
+.menuProduit a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menuProduit a:hover{
+    text-shadow: 3px 3px 3px black;
+}
+
+.menuProduit .actif{
+    color: #FF9933;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px black;
+}
+
+
+#lesProduits {
+    display: inline-block;
+    width: 70%;
+    margin-left: 300px;
+    height: 100%;
+}
+
+.formProduit label{
+    width: 150px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/********************/
+/*****Vue Facture****/
+/********************/
+
+.Commande {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+.Commande h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Commande p{
+    padding-top: 20px;
+    text-align: justify;
+}
+
+
+
+.droite {
+    display: inline-block;
+    width: 80%;
+    font-size: 15px;
+    vertical-align: top;
+    margin-top: 40px;
+}
+
+.droite .ligne input {
+    width: 200px ;
+    white-space : normal ;
+    vertical-align : top ;
+}
+
+
+.menuCommande {
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 22px;
+}
+
+.menuCommande ul{
+    list-style-type: none;
+    border: 1px solid grey;
+}
+
+.menuCommande a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menuCommande a:hover{
+    text-shadow: 3px 3px 3px black;
+}
+
+.menuCommande .actif{
+    color: #FF9933;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px black;
+}
+
+
+#lesCommandes {
+    display: inline-block;
+    width: 70%;
+    margin-left: 300px;
+    height: 100%;
+}
+
+.formCommande label{
+    width: 150px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/****************************/
+/******Vue Compte Client*****/
+/****************************/
+
+
+.contentCompte{
+    background-color: white;
+    text-align: center;
+}
+
+.compte {
+    display: inline-block;
+    font-size: 15px;
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.compte h1{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 16px 0px 10px;
+}
+
+.formCompte label{
+    width: 150px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.formCompte input{
+    display: inline-block;
+}
+
+#CompteModif{
+    margin-top: 32px;
+    display: inline-block;
+    width: 180px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+#CompteSupprimer{
+    margin-top: 32px;
+    display: inline-block;
+    width: 180px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 12px;
+    
+}
+
+/****************************/
+/*******Vue Bas/Footer*******/
+/****************************/
+
+footer {
+
+    background-color: black;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 45px;
+}
