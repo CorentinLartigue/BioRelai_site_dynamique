@@ -3,7 +3,7 @@
 class Param {
 	public static $user = 'clartigue';
 	public static $pass = 'clartigue';
-	public static $dsn = 'mysql:host=localhost;dbname=clartigue_biorelai;charset=utf8';
+	public static $dsn = 'mysql:host=localhost;dbname=biorelai;charset=utf8';
 	
 }
 ?>

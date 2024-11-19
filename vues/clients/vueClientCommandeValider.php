@@ -1,4 +1,4 @@
-<div class="contentCommande">
+<div class="conteneur contentCommande">
     <header>
         <?php include 'vues/vueHaut.php' ;?>
     </header>
@@ -23,3 +23,4 @@
         <?php include 'vues/vueBas.php' ;?>
     </footer>
 </div>
+
